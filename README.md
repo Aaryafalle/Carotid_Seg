@@ -105,7 +105,8 @@ This model can be used in **clinical support tools** for radiologists or vascula
 
 ---
 
-🧠 Learnings from the Project:
+## 🧠 Learnings from the Project:
+
 Understood how U-Net is used for medical image segmentation, especially for segmenting carotid artery regions.
 
 Learned the process of preprocessing medical images and masks for deep learning.
