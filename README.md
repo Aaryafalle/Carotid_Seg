@@ -1,4 +1,4 @@
-# Carotid_Seg
+
 # Carotid Ultrasound Image Segmentation using U-Net
 
 This project performs automatic **segmentation of carotid artery regions** in ultrasound images using a **U-Net deep learning model**. The dataset contains real-world medical ultrasound images and their corresponding expert-annotated masks.
