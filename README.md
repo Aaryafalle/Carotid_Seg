@@ -105,6 +105,19 @@ This model can be used in **clinical support tools** for radiologists or vascula
 
 ---
 
+🧠 Learnings from the Project:
+Understood how U-Net is used for medical image segmentation, especially for segmenting carotid artery regions.
+
+Learned the process of preprocessing medical images and masks for deep learning.
+
+Gained hands-on experience in training deep learning models using PyTorch.
+
+Learned to evaluate segmentation performance using metrics like IoU (Intersection over Union).
+
+Understood the importance of visualizing predictions to check model accuracy in medical applications.
+
+---
+
 ## 🤝 Acknowledgements
 
 - Dataset by [Orvile](https://www.kaggle.com/datasets/orvile/carotid-ultrasound-images)
