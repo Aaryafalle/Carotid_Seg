@@ -54,14 +54,15 @@ To build an accurate **semantic segmentation model** using U-Net that can automa
 ### 3. U-Net Model
 
 #### 🔍 What is U-Net?
+U-Net is a deep learning segmentation algorithm.
+It is based on CNNs, designed specifically for biomedical image segmentation.
+The name U-Net comes from its U-shaped architecture, which has:
+A contracting path (encoder): learns context using convolution and pooling.
+An expanding path (decoder): enables precise localization using upsampling and skip connections.
 
-**U-Net** is a **convolutional neural network (CNN)** architecture used for **semantic segmentation** — especially in **biomedical image analysis**. It consists of:
-
-- **Encoder (Contracting path):** Learns features by downsampling.
-- **Decoder (Expanding path):** Reconstructs the segmented image by upsampling.
-- **Skip Connections:** Preserve spatial details by connecting encoder and decoder layers.
-
-U-Net is efficient, accurate, and works well even with small datasets.
+#### 📌 Why U-Net for this project?
+~Carotid artery segmentation is a pixel-wise classification task.
+~U-Net performs well on small datasets and gives accurate segmentation masks for medical images.
 
 ### 4. Training
 - Loss Function: `binary_crossentropy`
